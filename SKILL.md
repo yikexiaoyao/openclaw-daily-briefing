@@ -1,6 +1,13 @@
 ---
 name: openclaw-daily-briefing
-description: 定时汇报每日/每周任务日程，通过 dida CLI 直连滴答清单 API，支持优先级分组、已完成/未完成分类展示。
+description: 定时汇报每日/每周任务日程，通过 dida CLI 直连滴答清单 API，支持优先级分组、已完成/未完成分类展示。触发场景：晨报、晚报、周报、今日待办、任务汇报、查看任务、任务日程。
+metadata:
+  openclaw:
+    emoji: "📅"
+    always: false
+    requires:
+      bins: ["node"]
+      env: []
 ---
 
 # Daily Briefing Skill
